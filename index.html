@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ta'meer-e-Rekhta | Reviving Urdu, Empowering Youth, Serving Humanity</title>
+  <meta name="description" content="Ta'meer-e-Rekhta is a youth-led organization working for Urdu Revival, Youth Leadership, and Welfare of Mankind in Pakistan.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#home" class="brand-logo" id="logoLink">
+        <div class="logo-icon">
+          <i class="fa-solid fa-seedling"></i>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Ta'meer-e-Rekhta</span>
+          <span class="logo-urdu urdu-text">تعمیرِ ریختہ</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active" data-target="home">Home</a></li>
+          <li><a href="#ourwork" class="nav-link" data-target="ourwork">Our Work</a></li>
+          <li><a href="#volunteer" class="nav-link" data-target="volunteer">Volunteer</a></li>
+          <li><a href="#donate" class="nav-link modal-trigger" data-modal="donateModal">Donate</a></li>
+          <li><a href="#contact" class="nav-link modal-trigger" data-modal="contactModal">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#volunteer" class="btn btn-primary nav-cta" data-target="volunteer">
+          <i class="fa-solid fa-hand-holding-heart"></i> Join Us
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================================================================
+         1. HOME PAGE VIEW (#home)
+         =================================================================== -->
+    <section id="home-view" class="page-view active">
+      <div class="container">
+        
+        <!-- Hero Section -->
+        <div class="hero-section">
+          <div class="hero-banner">
+            <div class="hero-content">
+              <div class="hero-badge">
+                <i class="fa-solid fa-sparkles"></i> Youth-Led Initiative in Pakistan
+              </div>
+              <h1 class="hero-title">Reviving Urdu.<br>Empowering Youth.<br>Serving Humanity.</h1>
+              <div class="hero-urdu-subtitle urdu-text">آوازِ نو - رسمِ کہن</div>
+              <p class="hero-desc">
+                Ta'meer-e-Rekhta is a passionate youth-led organization working for Urdu Revival, Youth Leadership Events & Welfare of Mankind in Pakistan. We believe in preserving our cultural identity while serving communities with compassion.
+              </p>
+              <div class="hero-buttons">
+                <a href="#volunteer" class="btn btn-primary" data-target="volunteer">
+                  Join the Movement <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#ourwork" class="btn btn-secondary" data-target="ourwork">
+                  Explore Our Work <i class="fa-solid fa-compass"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+              <img src="assets/hero_sprout.jpg" alt="Ta'meer-e-Rekhta - Hands holding plant sprout" class="hero-image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Mission in Action -->
+        <div class="mission-section">
+          <div class="section-header">
+            <span class="section-tag"><i class="fa-solid fa-leaf"></i> Core Pillars</span>
+            <h2 class="section-title">Our Mission in Action</h2>
+            <p class="section-desc">Guided by unity, cultural pride, and empathy, we empower the youth of today to build a better tomorrow.</p>
+          </div>
+
+          <div class="mission-grid">
+            <div class="mission-card">
+              <div class="mission-icon">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <h3 class="mission-title">Revive Urdu</h3>
+              <p class="mission-text">Promoting the rich beauty, poetry, and literature of the Urdu language among young generations across Pakistan.</p>
+            </div>
+
+            <div class="mission-card">
+              <div class="mission-icon">
+                <i class="fa-solid fa-user-graduate"></i>
+              </div>
+              <h3 class="mission-title">Empower Youth</h3>
+              <p class="mission-text">Creating leadership opportunities, workshops, and platforms for youth to hone skills and build strong character.</p>
+            </div>
+
+            <div class="mission-card">
+              <div class="mission-icon">
+                <i class="fa-solid fa-hands-holding-child"></i>
+              </div>
+              <h3 class="mission-title">Serve Humanity</h3>
+              <p class="mission-text">Working tirelessly for the welfare of underprivileged communities, orphanages, and food distribution drives.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Recent Activities -->
+        <div class="activities-section">
+          <div class="section-header">
+            <span class="section-tag"><i class="fa-solid fa-heart"></i> Recent Impact</span>
+            <h2 class="section-title">Our Recent Activities</h2>
+            <p class="section-desc">Take a look at some of our ongoing and completed welfare and youth initiatives.</p>
+          </div>
+
+          <div class="activities-grid">
+            <div class="activity-card">
+              <div class="activity-img-wrapper">
+                <span class="activity-tag">Welfare</span>
+                <img src="assets/food_drive.jpg" alt="Food Drives" class="activity-img">
+              </div>
+              <div class="activity-content">
+                <h3 class="activity-title">Food Drives</h3>
+                <p class="activity-desc">Providing warm meals and essential rations to families in need across urban cities.</p>
+                <div class="activity-footer">
+                  <span><i class="fa-solid fa-location-dot"></i> Karachi & Lahore</span>
+                  <span>1000+ Meals</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="activity-card">
+              <div class="activity-img-wrapper">
+                <span class="activity-tag">Social</span>
+                <img src="assets/orphanage.jpg" alt="Orphanage Visits" class="activity-img">
+              </div>
+              <div class="activity-content">
+                <h3 class="activity-title">Orphanage Visits</h3>
+                <p class="activity-desc">Spending quality time with orphans, conducting fun activities, and donating educational supplies.</p>
+                <div class="activity-footer">
+                  <span><i class="fa-solid fa-location-dot"></i> Karachi</span>
+                  <span>15+ Visits</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="activity-card">
+              <div class="activity-img-wrapper">
+                <span class="activity-tag">Leadership</span>
+                <img src="assets/youth_lead.jpg" alt="Youth Leadership" class="activity-img">
+              </div>
+              <div class="activity-content">
+                <h3 class="activity-title">Youth Leadership</h3>
+                <p class="activity-desc">Organizing interactive seminars, public speaking sessions, and skill workshops for youth.</p>
+                <div class="activity-footer">
+                  <span><i class="fa-solid fa-location-dot"></i> Nationwide</span>
+                  <span>500+ Attendees</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="activity-card">
+              <div class="activity-img-wrapper">
+                <span class="activity-tag">Community</span>
+                <img src="assets/volunteers.jpg" alt="Community Welfare" class="activity-img">
+              </div>
+              <div class="activity-content">
+                <h3 class="activity-title">Community Welfare</h3>
+                <p class="activity-desc">Mobilizing active volunteers to respond to local community needs and disaster relief efforts.</p>
+                <div class="activity-footer">
+                  <span><i class="fa-solid fa-location-dot"></i> Sindh & Punjab</span>
+                  <span>Active Network</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats Counter Section -->
+        <div class="stats-section">
+          <div class="stats-banner">
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-number" data-target="10">10+</div>
+                <div class="stat-label">Events & Campaigns</div>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-number" data-target="2000">2K+</div>
+                <div class="stat-label">Lives Touched</div>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-number" data-target="15">15+</div>
+                <div class="stat-label">Active Volunteers</div>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-number" data-target="3">3+</div>
+                <div class="stat-label">Cities Covered</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         2. OUR WORK PAGE VIEW (#ourwork)
+         =================================================================== -->
+    <section id="ourwork-view" class="page-view">
+      <div class="container">
+        
+        <div class="page-header-banner">
+          <span class="section-tag" style="color: var(--accent-gold);"><i class="fa-solid fa-briefcase"></i> What We Do</span>
+          <h1 class="section-title" style="color:#ffffff;">Our Work & Initiatives</h1>
+          <p class="section-desc" style="color: rgba(255,255,255,0.85);">We focus on multiple key areas to create a meaningful and sustainable impact in society.</p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All Initiatives</button>
+          <button class="filter-btn" data-filter="food">Food Drives</button>
+          <button class="filter-btn" data-filter="orphanage">Orphanage Visits</button>
+          <button class="filter-btn" data-filter="leadership">Youth Leadership</button>
+          <button class="filter-btn" data-filter="urdu">Urdu Revival</button>
+        </div>
+
+        <!-- Work Cards Grid -->
+        <div class="work-cards-grid">
+          
+          <div class="work-card" data-category="food">
+            <div class="work-card-img-wrapper">
+              <img src="assets/food_drive.jpg" alt="Ration & Meal Drives" class="work-card-img">
+            </div>
+            <div class="work-card-content">
+              <span class="work-category">Community Welfare</span>
+              <h3 class="work-title">Ration & Meal Distribution</h3>
+              <p class="work-desc">Providing hygienic cooked food meals and monthly grocery ration bags to daily wage workers and needy families.</p>
+              <div class="work-meta">
+                <div class="work-meta-item"><i class="fa-solid fa-calendar"></i> Monthly Campaign</div>
+                <div class="work-meta-item"><i class="fa-solid fa-location-dot"></i> Karachi</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-card" data-category="orphanage">
+            <div class="work-card-img-wrapper">
+              <img src="assets/orphanage.jpg" alt="Orphan Care & Mentorship" class="work-card-img">
+            </div>
+            <div class="work-card-content">
+              <span class="work-category">Social Welfare</span>
+              <h3 class="work-title">Orphan Care & Mentorship</h3>
+              <p class="work-desc">Visiting shelter homes, providing educational stationary kits, interactive storytelling, and emotional support to children.</p>
+              <div class="work-meta">
+                <div class="work-meta-item"><i class="fa-solid fa-calendar"></i> Bi-Weekly</div>
+                <div class="work-meta-item"><i class="fa-solid fa-location-dot"></i> Karachi & Hyderabad</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-card" data-category="leadership">
+            <div class="work-card-img-wrapper">
+              <img src="assets/youth_lead.jpg" alt="Youth Leadership Workshops" class="work-card-img">
+            </div>
+            <div class="work-card-content">
+              <span class="work-category">Youth Development</span>
+              <h3 class="work-title">Youth Leadership Seminars</h3>
+              <p class="work-desc">Interactive workshops designed to cultivate public speaking, teamwork, project management, and ethical leadership in youth.</p>
+              <div class="work-meta">
+                <div class="work-meta-item"><i class="fa-solid fa-calendar"></i> Quarterly</div>
+                <div class="work-meta-item"><i class="fa-solid fa-location-dot"></i> Nationwide</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-card" data-category="urdu">
+            <div class="work-card-img-wrapper">
+              <img src="assets/hero_sprout.jpg" alt="Urdu Literature & Poetry Sessions" class="work-card-img">
+            </div>
+            <div class="work-card-content">
+              <span class="work-category">Cultural Revival</span>
+              <h3 class="work-title">Urdu Literature & Mushaira</h3>
+              <p class="work-desc">Promoting classic and contemporary Urdu literature, calligraphic workshops, and poetry sessions to reconnect youth with heritage.</p>
+              <div class="work-meta">
+                <div class="work-meta-item"><i class="fa-solid fa-calendar"></i> Special Events</div>
+                <div class="work-meta-item"><i class="fa-solid fa-location-dot"></i> Lahore & Karachi</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CTA Strip -->
+        <div class="cta-strip">
+          <div>
+            <h3 class="cta-strip-title">Join Us in Our Mission</h3>
+            <p class="cta-strip-desc">Be the change maker our society needs today. Join as a volunteer or support our initiatives.</p>
+          </div>
+          <a href="#volunteer" class="btn btn-primary" data-target="volunteer" style="background-color: var(--primary-dark);">
+            Become a Volunteer <i class="fa-solid fa-hand-holding-heart"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         3. VOLUNTEER PAGE VIEW (#volunteer)
+         =================================================================== -->
+    <section id="volunteer-view" class="page-view">
+      <div class="container">
+        
+        <!-- Hero Split Header -->
+        <div class="volunteer-hero">
+          <div class="volunteer-intro">
+            <span class="section-tag"><i class="fa-solid fa-users"></i> Join The Team</span>
+            <h1 class="volunteer-intro-title">Become a Volunteer</h1>
+            <p class="volunteer-intro-sub">Join hands with us and be the reason for someone's smile. Together we build character and serve humanity.</p>
+            
+            <ul class="benefits-list">
+              <li class="benefit-item">
+                <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+                <span>Make a real, visible impact in society</span>
+              </li>
+              <li class="benefit-item">
+                <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+                <span>Gain invaluable leadership & event experience</span>
+              </li>
+              <li class="benefit-item">
+                <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+                <span>Build lifelong friendships with like-minded youth</span>
+              </li>
+              <li class="benefit-item">
+                <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+                <span>Be an active part of positive social change</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="volunteer-hero-img-wrapper">
+            <img src="assets/volunteers.jpg" alt="Ta'meer-e-Rekhta Volunteers" class="volunteer-hero-img">
+          </div>
+        </div>
+
+        <!-- How to Join? Steps -->
+        <div class="steps-section">
+          <div class="section-header">
+            <span class="section-tag"><i class="fa-solid fa-route"></i> Simple Process</span>
+            <h2 class="section-title">How to Join Us?</h2>
+            <p class="section-desc">Becoming a volunteer with Ta'meer-e-Rekhta is fast and straightforward.</p>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="step-number">1</div>
+              <h3 class="step-title">Fill the Form</h3>
+              <p class="step-desc">Complete the simple volunteer application form below with your basic details.</p>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <h3 class="step-title">Team Outreach</h3>
+              <p class="step-desc">Our volunteer coordinator will review your profile and connect via WhatsApp/Email.</p>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <h3 class="step-title">Be Part of Mission</h3>
+              <p class="step-desc">Participate in upcoming welfare drives, Urdu sessions, and leadership workshops!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Volunteer Registration Form Container -->
+        <div class="form-section" id="volunteerFormContainer">
+          <div class="form-header">
+            <h2 class="section-title">Volunteer Registration</h2>
+            <p class="section-desc">Fill out your information below to register as an official volunteer.</p>
+          </div>
+
+          <form id="volunteerForm">
+            <div class="form-grid">
+              
+              <div class="form-group">
+                <label for="fullName" class="form-label">Full Name *</label>
+                <input type="text" id="fullName" class="form-control" placeholder="e.g. Muhammad Ali" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address *</label>
+                <input type="email" id="email" class="form-control" placeholder="e.g. name@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone / WhatsApp Number *</label>
+                <input type="tel" id="phone" class="form-control" placeholder="0300-1234567" required>
+              </div>
+
+              <div class="form-group">
+                <label for="city" class="form-label">City *</label>
+                <input type="text" id="city" class="form-control" placeholder="e.g. Karachi, Lahore, Islamabad" required>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="interest" class="form-label">Area of Interest *</label>
+                <select id="interest" class="form-control" required>
+                  <option value="" disabled selected>Select your interest</option>
+                  <option value="Urdu Revival & Literature">Urdu Revival & Literature Sessions</option>
+                  <option value="Food Drive & Ration Relief">Food Drives & Ration Relief</option>
+                  <option value="Orphanage Visits & Care">Orphanage Visits & Care</option>
+                  <option value="Youth Leadership & Seminars">Youth Leadership Seminars</option>
+                  <option value="Media, Graphic Design & Tech">Media, Design & Tech Team</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="reason" class="form-label">Why do you want to join Ta'meer-e-Rekhta? *</label>
+                <textarea id="reason" class="form-control" placeholder="Share a few lines about your motivation..." required></textarea>
+              </div>
+
+              <div class="form-group full-width" style="margin-top: 1rem;">
+                <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                  <i class="fa-solid fa-paper-plane"></i> Submit Volunteer Application
+                </button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+
+        <!-- Quote Banner -->
+        <div class="quote-banner">
+          "Alone we can do so little; together we can do so much."
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================================
+       FOOTER (COMMON ON ALL PAGES)
+       =================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="logo-icon">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <div class="logo-text">
+              <span class="logo-title">Ta'meer-e-Rekhta</span>
+              <span class="logo-urdu urdu-text">تعمیرِ ریختہ</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            A youth-led organization working for Urdu Revival, Youth Leadership Events & Welfare of Mankind in Pakistan.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link" data-target="home">Home</a></li>
+            <li><a href="#ourwork" class="footer-link" data-target="ourwork">Our Work</a></li>
+            <li><a href="#volunteer" class="footer-link" data-target="volunteer">Volunteer</a></li>
+            <li><a href="#donate" class="footer-link modal-trigger" data-modal="donateModal">Donate / Support</a></li>
+            <li><a href="#contact" class="footer-link modal-trigger" data-modal="contactModal">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Our Initiatives</h4>
+          <ul class="footer-links">
+            <li><a href="#ourwork" class="footer-link" data-target="ourwork"><i class="fa-solid fa-bowl-food"></i> Food Drives</a></li>
+            <li><a href="#ourwork" class="footer-link" data-target="ourwork"><i class="fa-solid fa-child-reaching"></i> Orphanage Visits</a></li>
+            <li><a href="#ourwork" class="footer-link" data-target="ourwork"><i class="fa-solid fa-graduation-cap"></i> Youth Leadership</a></li>
+            <li><a href="#ourwork" class="footer-link" data-target="ourwork"><i class="fa-solid fa-hands-holding-circle"></i> Community Welfare</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Get In Touch</h4>
+          <ul class="footer-links">
+            <li class="footer-link"><i class="fa-solid fa-envelope" style="color: var(--brand-green); margin-right: 0.5rem;"></i> tameerekhta@gmail.com</li>
+            <li class="footer-link"><i class="fa-solid fa-phone" style="color: var(--brand-green); margin-right: 0.5rem;"></i> 0312-3456789</li>
+            <li class="footer-link"><i class="fa-solid fa-location-dot" style="color: var(--brand-green); margin-right: 0.5rem;"></i> Karachi, Pakistan</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Ta'meer-e-Rekhta. All Rights Reserved.</div>
+        <div>Designed with <i class="fa-solid fa-heart" style="color: #ef4444;"></i> for Humanity</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       MODALS & POPUPS
+       =================================================================== -->
+  
+  <!-- Success Confirmation Modal -->
+  <div class="modal-overlay" id="successModal">
+    <div class="modal-card">
+      <button class="modal-close" data-close="successModal">&times;</button>
+      <div class="modal-icon">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h2 style="margin-bottom: 0.5rem;">Application Received!</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+        Thank you <strong id="applicantName">Volunteer</strong>! Your volunteer registration form has been submitted successfully. Our team will contact you shortly on WhatsApp.
+      </p>
+      <button class="btn btn-primary" data-close="successModal">Back to Home</button>
+    </div>
+  </div>
+
+  <!-- Support / Donate Modal -->
+  <div class="modal-overlay" id="donateModal">
+    <div class="modal-card">
+      <button class="modal-close" data-close="donateModal">&times;</button>
+      <div class="modal-icon">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+      </div>
+      <h2 style="margin-bottom: 0.5rem;">Support Our Mission</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+        Your small contribution brings a big positive change in someone's life. 100% transparent and direct impact.
+      </p>
+      <div style="background-color: var(--accent-mint); border-radius: var(--radius-sm); padding: 1.2rem; text-align: left; margin-bottom: 1.5rem;">
+        <p style="font-weight: 700; color: var(--primary-dark); margin-bottom: 0.4rem;"><i class="fa-solid fa-mobile-screen-button"></i> EasyPaisa / JazzCash</p>
+        <p style="font-size: 1.1rem; font-weight: 800; color: var(--brand-green);">0312-3456789</p>
+        <p style="font-size: 0.85rem; color: var(--text-body);">Title: Ta'meer-e-Rekhta Welfare Fund</p>
+      </div>
+      <button class="btn btn-primary" data-close="donateModal">Close</button>
+    </div>
+  </div>
+
+  <!-- Contact Modal -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-card">
+      <button class="modal-close" data-close="contactModal">&times;</button>
+      <div class="modal-icon">
+        <i class="fa-solid fa-headset"></i>
+      </div>
+      <h2 style="margin-bottom: 0.5rem;">Get in Touch</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">We would love to hear from you!</p>
+      <div style="text-align: left; display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+        <div><i class="fa-solid fa-envelope" style="color: var(--brand-green); width: 24px;"></i> <strong>Email:</strong> tameerekhta@gmail.com</div>
+        <div><i class="fa-solid fa-phone" style="color: var(--brand-green); width: 24px;"></i> <strong>Phone:</strong> 0312-3456789</div>
+        <div><i class="fa-solid fa-location-dot" style="color: var(--brand-green); width: 24px;"></i> <strong>City:</strong> Karachi, Pakistan</div>
+      </div>
+      <button class="btn btn-primary" data-close="contactModal">Done</button>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/app.js"></script>
+</body>
+</html>
